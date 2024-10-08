@@ -1,0 +1,22 @@
+{
+  "name": "adeo-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "engines": {
+    "node": ">=18.11.0"
+  },
+  "scripts": {
+    "test": "jest --watchAll --silent --verbose",
+    "start": "node --loader ts-node/esm ./src/app.ts --filter=ry --count"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^29.5.13",
+    "jest": "^29.5.0",
+    "ts-jest": "^29.2.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.2"
+  }
+}
